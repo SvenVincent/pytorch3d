@@ -158,3 +158,24 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+build/
+dist/
+*.egg-info/
+**/__pycache__/
+*-checkpoint.ipynb
+**/.ipynb_checkpoints
+**/.ipynb_checkpoints/**
+
+
+# Docusaurus site
+website/yarn.lock
+website/build/
+website/i18n/
+website/node_modules/*
+website/npm-debug.log
+
+## Generated for tutorials
+website/_tutorials/
+website/static/files/
+website/pages/tutorials/*
+!website/pages/tutorials/index.js
